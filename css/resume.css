@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(255, 242, 232);
+    width: 980px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.my {
+    width: 300px;
+
+}
+
+.j {
+    width: 800px;
+
+}
+
+.box {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid rgb(176, 140, 210);
+    background-color: rgb(176, 140, 210);
+}
+
+.box li{
+    background-color: rgba(253, 169, 99, 0.479);
+    border: 1px dotted dashed double;
+    margin: 25px;
+    text-align: center;
+    border-radius: 20%;
+}
+.box li:nth-child(4n){
+    margin-right: 0;
+}
+
+#bot{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+}

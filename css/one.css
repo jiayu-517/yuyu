@@ -1,0 +1,105 @@
+body {
+    background: #83a4d4;
+    text-align: center;
+    height: 100%;
+}
+
+h1 {
+    font-size: 45px;
+    padding: 10px;
+    text-shadow: 2px 2px 5px rgb(209, 58, 146);
+}
+
+#wrap {
+    width: 800px;
+    height: 1000px;
+    margin: 50px auto;
+
+}
+
+header {
+    background-color: rgb(206, 211, 236);
+    height: 90px;
+}
+
+
+table {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(189, 189, 247, 0.527);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+/*按鈕*/
+ul {
+    display: flex;
+}
+
+.menu li {
+    list-style-type: none;
+    flex-direction: row;
+    width: 800px;
+    margin: 10px;
+}
+
+.menu a {
+    background: rgb(0, 132, 255);
+    color: aliceblue;
+    padding: 40px;
+    border-radius: 50%;
+    display: block;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background: rgb(129, 136, 148);
+}
+
+/*課表設定*/
+課表設定*/ #ba {
+    background-color: rgb(240, 233, 248);
+    margin: 10px;
+    padding: 10px;
+}
+
+caption {
+    font-size: 200%;
+}
+
+.ctable {
+    width: 100%;
+    margin-bottom: 30px;
+    border: 2px solid #15257e;
+    border-collapse: collapse;
+}
+
+.ctable th,
+.ctable td {
+    padding: 10px;
+    border: 1px solid #52628d;
+    text-align: center;
+    width: 30px;
+}
+
+.anna {
+    background-color: rgb(180, 215, 247);
+}
+
+.fi {
+    background-color: rgb(169, 170, 212);
+}
+
+.ep {
+    background-color: rgb(240, 233, 248);
+}
+.we{
+    height: 100px;
+}
