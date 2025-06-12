@@ -4,17 +4,15 @@ body {
     margin: 20px auto;
 }
 
-table{
-    border:3px solid #52628d;
-}
 #ta2 {
     font-size: 300%;
     margin: 50px auto;
-    border: 5px solid rgb(169, 224, 164);
-    background-color: aliceblue;
-    border: 1px solid #52628d;
+    border: 5px solid rgb(44, 39, 92);
 }
+.ta3{
+    background-color: #ffffff;
 
+}
 /* 按鈕 */
 p {
     background-color: #ffffff;
